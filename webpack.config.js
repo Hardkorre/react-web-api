@@ -1,7 +1,10 @@
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
 module.exports = {
-    entry: "./src/index.js",
+    context: __dirname,
+    entry: "./ReactWebApi/src/index.js",
     output: {
-        path: "ReactWebApi/content",
+        path: __dirname + "/ReactWebApi/content",
         filename: "bundle.js",
         publicPath: "/content/"
     },  
