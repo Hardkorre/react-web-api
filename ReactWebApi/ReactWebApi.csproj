@@ -128,7 +128,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Properties\PublishProfiles\WebAPI-ProductsApp5101 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ReactWebApi20171130063553 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
